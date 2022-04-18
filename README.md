@@ -6,11 +6,6 @@ Taking CommerceHub Macy's Orders and formatting them for 3PL Central
 ![](input.PNG)
 
 
-[Order Output](Test_for_Macy_order_2022-04-18.txt)
-
-![](output.PNG)
-
-
 ```python
 
 # Take orders from CommerceHub and send to 3PL Central
@@ -39,6 +34,10 @@ len(orders)
 
 orders.columns.to_list()
 ```
+
+[Order Output](Test_for_Macy_order_2022-04-18.txt)
+
+![](output.PNG)
 
 
 ```python
